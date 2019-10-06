@@ -4,21 +4,30 @@
 
 ###  주요 기능
  * findFestByArea(sido,gugun) 시,군
- * findFestByRealm(sido,gugun,realmName) 종류 (realmName: 연극,뮤지컬,콘서트,음악,무용,미술...)
+    - 시,군을 입력하여 그 지역에서 진행하고 있는 행사들을 제공
+
+ * findFestByRealm(sido,gugun,realmName) (realmName: 연극,뮤지컬,콘서트,음악,무용,미술...)
+    - 종류를 입력하여 그 종류에 해당하는 행사들을 제공
+
  * findFestByThisMonth(이번달)
+    - 이번 달을 입력하여 이번 달에 진행되고 있는 행사들을 제공
+
  * findFestByThisWeek(이번주)
+    - 이번 주를 입력하여 이번 주에 진행되고 있는 행사들을 제공
+
  * findFestBySelectMonth(월 선택)
+   - 월 을입력하여 그 월에 진행되고 있는 행사들을 제공
+   
 ---
 
-
 ###  구동 화면
-![1](./img/12.JPG)
+![1](./img/12.png)
 #### 12월 행사 보여줘
-![2](./img/sido.JPG)
+![2](./img/sido.png)
 #### 발화 : 서울 중구의 축제 보여줘
-![3](./img/realmName.JPG)
+![3](./img/realmName.png)
 ##### 발화 : 연극 뭐 볼까?
-![4](./img/thisweek.JPG)
+![4](./img/thisweek.png)
 ##### 발화 : 이번 주 공연 보여줘(해당하는 공연이 없을 시 화면)
 
 ---
