@@ -16,13 +16,13 @@
 ---
 
 ### 구동 화면
-![1](./img/12.jpg)
+![1](./img/12.png){: width="200" height="600"}
 _발화: 12월 행사 보여줘_
-![2](./img/sido.jpg)
+![2](./img/sido.png){: width="200" height="600"}
 _발화: 서울 중구의 축제 보여줘_
-![3](./img/realmName.jpg)
+![3](./img/realmName.png){: width="200" height="600"}
 _발화: 연극 뭐 볼까?_
-![4](./img/thisweek.jpg)
+![4](./img/thisweek.png){: width="200" height="600"}
 _발화: 이번 주 공연 보여줘(해당하는 공연이 없을 시 화면)_
 
 ---
