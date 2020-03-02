@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (서울에 전시 뭐 있어?)
+    utterance (연극 뭐 볼까)
+    utterance (4월 축제 보여줘)
+  }
+}

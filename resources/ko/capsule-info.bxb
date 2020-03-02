@@ -1,0 +1,15 @@
+description {
+  displayName (공연 알리미)
+  companyName (덕스비)
+  iconUrl (/img/duxby.png)
+  description ("축제공연 알리미는 날짜, 분야, 지역에 대해서 축제, 공연에 대한 정보를 제공합니다.")
+  search-keywords{
+    keyword(축제정보)
+    keyword(공연정보)
+  }
+  dispatch-name (공연 알리미)
+  dispatch-aliases {
+    alias (덕스비 공연 검색)
+    alias (덕스비 공연 알리미)
+  }
+}

@@ -1,0 +1,3 @@
+text (ImgUrl) {
+  description ("이미지 url")
+}

@@ -1,0 +1,5 @@
+train (t-766yvl1k3vwfjh62ri5ack6ha) {
+  utterance ("[g:findFestBySelectMonth] (4)[v:MonthOperand]월 공연 알려줘")
+  plan (Y2BmkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYNLBIpmXmpYAUOFUGp+akJpf45ueVZDDIY1EJlvEvSC1KzEthYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1561536836371)
+}

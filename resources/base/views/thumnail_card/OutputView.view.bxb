@@ -1,0 +1,29 @@
+result-view {
+  match: Festival (festival) {
+    //from-output: findFestByArea
+  }
+
+  message {
+    template ("#{value(festival.numberOfFestivals)}개의 행사를 찾았습니다.")
+  }
+
+  render {  
+    if (size(festival) > 1) {
+      list-of (festival) {
+        has-details (true)
+        where-each (item) {
+          layout-macro (festival-thumbnail-card) {
+            param (festival) {
+              expression (item)
+            }
+          }
+        }
+      }
+    } else-if (size(festival) == 1) {
+      layout-match (festival) {
+        mode (Details)
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,5 @@
+train (t-1v1gozvqts9bcf64jh2mlw75w) {
+  utterance ("[g:findFestByRealm] (연극)[v:RealmName] 어떤게 있는지 알려줘")
+  plan (Y2BmkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYlLBIpmXmpYAUOFUGpSbm5DLIYFEDlvFLzE1lYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1561548107307)
+}

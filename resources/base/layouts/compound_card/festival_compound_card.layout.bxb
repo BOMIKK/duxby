@@ -1,0 +1,49 @@
+layout-macro-def (festival-compound-card) {
+  params {
+    param (festival) {
+      type (Festival)
+      min (Required) max (One)
+    }
+  }
+  content {
+    compound-card {
+      content {
+        image-card {
+          aspect-ratio (4:3)
+          image-url ("#{value(festival.imgUrl[0])}")
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("")
+                style (Title_M)
+              }
+            }
+          }
+        }
+        single-line {
+          text {
+            value {
+              template ("[*#{value(festival.realmName[0])}*] #{value(festival.title[0])}")
+            }
+            style (Title_M)
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value(festival.place[0])}")
+          }
+          style (Detail_L)
+        }
+        // single-line {
+        //   text {
+        //     value {
+        //       template ("")
+        //     }
+        //     style (Detail_M_Soft)
+        //   }
+        // }
+      }
+    }
+  }
+}

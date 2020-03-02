@@ -1,0 +1,68 @@
+layout {
+  match: Festival (festival)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        layout-macro (festival-compound-card) {
+          param (festival) { expression (festival) }
+        }
+      }
+    }
+     section {
+      title (기간)
+      content {
+        paragraph {
+          value ("#{value(festival.startDate[0])} ~ #{value(festival.endDate[0])}")
+          style (Detail_M)
+        }
+      }
+    }
+    section {
+      title (금액)
+      content {
+        partitioned {
+          content {
+            paragraph {
+              value ("#{value(festival.price[0])}")
+              style (Detail_M)
+            }
+          }
+        }
+      }
+    }
+    section {
+      title (상세장소)
+      content {
+        paragraph {     
+         value ("#{value(festival.placeAddr[0])}")
+            style (Detail_M)
+        }
+         paragraph {
+          value ("#{value(festival.placeUrl[0])}")
+          style (Detail_M_Soft)
+        }
+      }
+    }
+    section {
+      title (website)
+      content {
+        paragraph {
+          value ("#{value(festival.url[0])}")
+          style (Detail_M)
+        }
+      }
+    }
+    section {
+      title (전화)
+      content {
+        paragraph {
+          value ("#{value(festival.phone[0])}")
+          style (Detail_M)
+        }
+      }
+    }
+  }
+  
+}

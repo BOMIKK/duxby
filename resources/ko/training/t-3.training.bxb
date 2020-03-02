@@ -1,0 +1,10 @@
+train (t-3misi5qer07zncdv6c1q6doxx) {
+  utterance ("[g:findFestByArea] (경기도)[v:Sido] 축제 뭐 있어")
+  plan (Y2BmkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYFLFIpmXmpYAUOFU6FqUmMohjURKcmZLPwMTACMQMQJKRAQSgfAA=)
+  last-modified (1561876113198)
+}
+train (t-3wu9jwgwk5ctj07h7l0i9z7nk) {
+  utterance ("[g:findFestByRealm] (공연)[v:RealmName] 뭐 볼까")
+  plan (Y2BmkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYlLBIpmXmpYAUOFUGpSbm5DLIYFEDlvFLzE1lYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1561873229364)
+}

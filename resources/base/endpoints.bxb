@@ -1,0 +1,32 @@
+endpoints {
+
+  action-endpoints {
+    
+    action-endpoint (findFestByArea) { //model->action
+      accepted-inputs (sido,gugun,monthOperand)
+      local-endpoint (searchFestivalsByArea.js) //모델에 맞는 js
+    }
+    
+    
+    action-endpoint (findFestByRealm) { //model->action
+      accepted-inputs (sido,gugun,realmName,monthOperand)
+      local-endpoint (searchFestivalsByRealm.js) //모델에 맞는 js
+    }
+    
+    
+    action-endpoint (findFestByThisMonth) { //model->action
+      accepted-inputs (searchMonth)
+      local-endpoint (searchFestivalsByThisMonth.js) //모델에 맞는 js
+    }   
+    
+    action-endpoint (findFestByThisWeek) { //model->action
+      accepted-inputs (searchWeek)
+      local-endpoint (searchFestivalsByThisWeek.js) //모델에 맞는 js
+    }
+    
+    action-endpoint (findFestBySelectMonth) { //model->action
+      accepted-inputs (monthOperand)
+      local-endpoint (searchFestivalsBySelectMonth.js) //모델에 맞는 js
+    }
+  }
+}
