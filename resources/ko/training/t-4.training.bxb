@@ -1,0 +1,10 @@
+train (t-4jpr3cjbzb4ov6c9v1ib2m5ei) {
+  utterance ("[g:findFestByArea] (서울)[v:Sido]에서 열리는 (7)[v:MonthOperand]월 행사 뭐 있어")
+  plan (Y2BhkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYFLFIpmXmpYAUOFU6FqUmMshjUeKbn1eS4V+QWpSYl8IgjkVBcGZKPgMzAyMDE5BkANIgCAFwUQA=)
+  last-modified (1561976394572)
+}
+train (t-4komrw5bqpj7zroywpbx3tkyw) {
+  utterance ("[g:findFestByArea] (서울)[v:Sido] (중구)[v:Gugun]에서 뭐할까")
+  plan (Y2BhkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYFLFIpmXmpYAUOFU6FqUmMkhgUeJeml6axyCORSY4MyWfgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1561975668448)
+}

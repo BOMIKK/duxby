@@ -1,0 +1,17 @@
+template-macro-def (result_answer) {
+  content {
+     template("**다음과 같은 행사를 찾았어요.**")
+  }
+}
+
+template-macro-def (no_result) {
+  content {
+    template("문제가 생겼네요. 다시 한번 말씀해주세요.")
+  }
+}
+
+template-macro-def (no_play) {
+  content {
+    template("해당하는 공연이 없습니다.")
+  }
+}

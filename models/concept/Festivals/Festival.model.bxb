@@ -1,0 +1,75 @@
+structure (Festival) {
+  description (__DESCRIPTION__)
+  property (title) {
+    type (Title)
+    min (Required) max (One)
+  }
+  
+  property (subTitle) {
+    type (SubTitle)
+    min (Optional) max (One)
+  }
+  
+  property (startDate) {
+    type (StartDate)
+    min (Optional) max (One)
+  }
+  
+  property (endDate) {
+    type (EndDate)
+    min (Optional) max (One)
+  }
+  
+  property (place) {
+    type (Place)
+    min (Optional) max (One)
+  }
+  
+  property (realmName) {
+    type (RealmName)
+    min (Optional) max (One)
+  }
+  
+   property (price) {
+    type (Price)
+    min (Optional) max (One)
+  }
+ 
+  property (contents1) {
+    type (Contents1)
+    min (Optional) max (One)
+  }
+  
+  property (contents2) {
+    type (Contents2)
+    min (Optional) max (One)
+  }
+  
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Optional) max (One)
+  }
+
+  property (placeAddr) {
+    type (PlaceAddr)
+    min (Optional) max (One)
+  }
+  
+  property (placeUrl) {
+    type (PlaceUrl)
+    min (Optional) max (One)
+  }
+
+  property (phone) {
+    type (Phone)
+    min (Optional) max (One)
+  }
+  property (numberOfFestivals){
+    type (NumberOfFestivals)
+    min (Optional) max (One)
+  }
+  property (url){
+    type (Url)
+    min (Optional) max (One)
+  }
+}

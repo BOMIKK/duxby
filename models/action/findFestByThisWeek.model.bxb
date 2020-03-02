@@ -1,0 +1,25 @@
+action (findFestByThisWeek) {
+  description (이번주 축제 가져오기.)
+ 
+  collect {
+    input (searchWeek) {
+      type (SearchWeek)
+      min (Required) max (One)
+    } 
+  }
+  type(Search)
+  output (Festival){
+     throws{
+     error (NoResult){
+        on-catch {
+          halt {
+            dialog {
+              template-macro(no_play)
+            }
+          }
+        }
+      }     
+    }
+  }
+}
+

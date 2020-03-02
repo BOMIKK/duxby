@@ -1,0 +1,25 @@
+action (findFestByThisMonth) {
+  description (이번달 축제 가져오기.)
+ 
+  collect {
+    input (searchMonth) {
+      type (SearchMonth)
+      min (Required) max (One)
+    } 
+  }
+  
+  type(Search)
+  output (Festival){
+     throws{
+     error (NoResult){
+        on-catch {
+          halt {
+            dialog {
+              template-macro(no_play)
+            }
+          }
+        }
+      }     
+    }
+  }
+}

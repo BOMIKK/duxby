@@ -1,0 +1,32 @@
+action (findFestByArea) {
+  description (지역별 축제)
+  collect {
+    input (sido) {
+      type (Sido)
+      min (Required) max (One)
+    }
+     input (gugun) {
+      type (Gugun)
+      min (Optional) max (One)
+    }
+     input (monthOperand) {
+      type (MonthOperand)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (Festival){
+     throws{
+     error (NoResult){
+        on-catch {
+          halt {
+            dialog {
+              //template-macro(no_play)
+              template("#{value(sido)}에는 현재 해당하는 공연이 없어요.")
+            }
+          }
+        }
+      }     
+    }
+  }
+}

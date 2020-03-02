@@ -1,0 +1,15 @@
+train (t-21wyd8xuuus3tz9sa0xm3g42v) {
+  utterance ("[g:findFestByRealm] (7)[v:MonthOperand]월 (연극)[v:RealmName] 보여줘")
+  plan (Y2BhkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYlLBIpmXmpYAUOFUGpSbm5DLIY1Hjm59XkuFfkFqUmJfCIINFAVirX2JuKgMzAyMDE5BkANIgCAFwUQA=)
+  last-modified (1561973078344)
+}
+train (t-2flogklu7rcs5g33danngbwj2) {
+  utterance ("[g:findFestByArea] (서울)[v:Sido]의 (중구)[v:Gugun]의 행사 알려줘")
+  plan (Y2BhkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYFLFIpmXmpYAUOFU6FqUmMkhgUeJeml6axyCORSY4MyWfgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1561536837955)
+}
+train (t-2q0mmd9gdp66h14sd3nes9gvs) {
+  utterance ("[g:findFestByRealm] (서울)[v:Sido]에 (전시)[v:RealmName] 뭐 있어?")
+  plan (Y2BhEE8prUiq1EtLLS7JLEvM0XODMhjk0CTSMvNSQJJOlUGpiTm5DBJo8mBRv8TcVAZhNJngzJR8BmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1561104267377)
+}

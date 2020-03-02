@@ -1,0 +1,5 @@
+train (t-5s9wo1bkv274bpc81mh99ygml) {
+  utterance ("[g:findFestByRealm] (서울)[v:Sido]에 (전시)[v:RealmName] 보여줘")
+  plan (Y2BhkE4prUiq1EtLLS7JLEvM8cxLy9dzg3IYlLBIpmXmpYAUOFUGpSbm5DLIYFEDlvFLzE1lEMciG5yZks/AzMDIwAQkGYA0CEIAXBQA)
+  last-modified (1561876427573)
+}
